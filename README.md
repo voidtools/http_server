@@ -2,16 +2,16 @@ HTTP Server Plugin for [Everything 1.5](https://www.voidtools.com/forum/viewtopi
 
 Allow users to search and access your files from a webbrowser.
 
+Everything HTTP Server Options:
 ![image](https://github.com/user-attachments/assets/c41251d7-76ca-4df3-8dfb-2019f48a25a0)
 
+Everything HTTP Server in a web browser example:
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
 
 
-Plug-in Installation  
-  
 To install a plug-in:
 
-*   [Download a plug-in installer](#download).
+*   [Download a plug-in installer](https://www.voidtools.com/forum/viewtopic.php?p=35401#download).
 *   **Run** the plug-in installer.
 *   Click **Add**.
 
@@ -19,7 +19,7 @@ To install a plug-in:
   
 To manually install a plug-in:
 
-*   [Download a plug-in zip](#download) and extract the plug-in dll to your Desktop.
+*   [Download a plug-in zip](https://www.voidtools.com/forum/viewtopic.php?p=35401#download) and extract the plug-in dll to your Desktop.
 *   Move the extracted plug-in dll to C:\\Program Files\\Everything\\plugins  
     where C:\\Program Files\\Everything is your Everything installation folder.
 *   In **Everything**, from the **File** menu, click **Exit**.
