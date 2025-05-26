@@ -8,5 +8,5 @@ Sunday 29 October 2023: Version 1.0.2.2
 	fixed an issue with remembering name sort order.
 	
 Thursday 22 June 2022: Version 1.0.0.1
-    Added installer.
-    fixed an issue with x86 plugins not working.
+	Added installer.
+	fixed an issue with x86 plugins not working.
