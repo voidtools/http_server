@@ -375,10 +375,7 @@ http://localhost/?search=ABC+123&offset=0&count=100&sort=size&ascending=0
 Change the default HTTP files
 -----------------------------
 
-You can customize the layout of the server, the icon, folder image, file image, everything logo, sort up image, sort down image and up one folder image.
-<br/><br/><br/> 
-
-  
+To customize the layout of the server, the icon, folder image, file image, everything logo, sort up image, sort down image and up one folder image:
 
 *   Create the folder</br> 
     HTTP Server<br/>
@@ -456,14 +453,10 @@ To disable the HTTP server:
 
 *   Exit Everything (right click the Everything system tray icon and click Exit)
 *   Open your Everything.ini in the same location as your Everything.exe
-*   Change the following line:
-    
-    allow\_http\_server=1
-    
-    to:
-    
-    allow\_http\_server=0
-    
+*   Change the following line:</br>
+    allow\_http\_server=1</br>
+    to:</br>
+    allow\_http\_server=0</br>
 *   Save changes and restart Everything.
 <br/><br/><br/> 
 
