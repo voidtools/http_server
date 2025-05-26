@@ -3,9 +3,9 @@ HTTP Server Plugin for [Everything 1.5](https://www.voidtools.com/forum/viewtopi
 Allow users to search and access your files from a webbrowser.
 
 [Download](#download)  
-[Install Guide](#Plug-in Installation)  
-[Setup Guide](#Plug-in Setup)  
-[Start a HTTP Server](#Start a HTTP server)  
+[Install Guide](#Plug-in-Installation)  
+[Setup Guide](#Plug-in-Setup)  
+[Start a HTTP Server](#Start-a-HTTP-server)  
 
 Everything HTTP Server Options:
 
@@ -14,14 +14,12 @@ Everything HTTP Server Options:
 Everything HTTP Server in a web browser example:
 
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
-
-
+<br/><br/><br/>
 
 Download
 --------
 https://www.voidtools.com/support/everything/http/
-
-
+<br/><br/><br/>
 
 Plug-in Installation
 --------------------
@@ -41,8 +39,7 @@ To manually install a plug-in:
     where C:\\Program Files\\Everything is your Everything installation folder.
 *   In **Everything**, from the **File** menu, click **Exit**.
 *   **Restart Everything**.
-
-
+<br/><br/><br/>
 
 Plug-in Setup  
 -------------
@@ -51,8 +48,7 @@ To manage your plug-ins:
 
 *   In **Everything**, from the **Tools** menu, click **Options**.
 *   Click the **Plug-ins** tab on the left.
-
-
+<br/><br/><br/>
 
 Start a HTTP server
 -------------------
@@ -66,9 +62,7 @@ To start a HTTP server:
 *   Check **Enable HTTP server**.
     
 *   Click **OK**.
-    
-
-  
+<br/><br/><br/>
 
 View a HTTP server
 ------------------
