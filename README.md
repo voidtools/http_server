@@ -45,7 +45,7 @@ Plug-in Installation
 
 To install a plug-in:
 
-*   [Download a plug-in installer](https://www.voidtools.com/forum/viewtopic.php?p=35401#download).
+*   [Download a plug-in installer](#Download).
 *   **Run** the plug-in installer.
 *   Click **Add**.
 
@@ -53,7 +53,7 @@ To install a plug-in:
   
 To manually install a plug-in:
 
-*   [Download a plug-in zip](https://www.voidtools.com/forum/viewtopic.php?p=35401#download) and extract the plug-in dll to your Desktop.
+*   [Download a plug-in zip](#Download) and extract the plug-in dll to your Desktop.
 *   Move the extracted plug-in dll to C:\\Program Files\\Everything\\plugins  
     where C:\\Program Files\\Everything is your Everything installation folder.
 *   In **Everything**, from the **File** menu, click **Exit**.
