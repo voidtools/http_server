@@ -7,3 +7,4 @@ Allow users to search and access your files from a webbrowser.
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
 
 https://www.voidtools.com/forum/viewtopic.php?p=35401#http
+https://www.voidtools.com/support/everything/http/
