@@ -94,11 +94,8 @@ Start a HTTP server
 To start a HTTP server:
 
 *   In **_Everything_**, From the **Tools** menu, click **Options**.
-    
 *   Click the **HTTP Server** tab.
-    
 *   Check **Enable HTTP server**.
-    
 *   Click **OK**.
 <br/><br/><br/>
 
