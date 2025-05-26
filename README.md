@@ -14,7 +14,6 @@ Allow users to search and access your files from a webbrowser.
 [Change the default HTTP server page](#Change-the-default-HTTP-server-page)<br/>
 [Custom strings](#Custom-strings)<br/>
 [Security](#Security)<br/>
-[Disable HTTP Server](#Disable-HTTP-Server)<br/>
 [Troubleshooting](#Troubleshooting)<br/>
 [Range request](#Range-request)<br/>
 [See also](#See-also)<br/>
@@ -318,25 +317,6 @@ To disable file downloading:
 *   Click the **HTTP Server** tab.
 *   Uncheck **allow file download**.
 <br/><br/><br/>    
-
-See [Disable HTTP Server](#Disable-HTTP-Server) to remove the HTTP server options and prevent the HTTP server from starting.
-<br/><br/><br/>  
-
-  
-
-Disable HTTP Server
--------------------
-
-To disable the HTTP server:
-
-*   Exit Everything (right click the Everything system tray icon and click Exit)
-*   Open your Everything.ini in the same location as your Everything.exe
-*   Change the following line:</br>
-    allow\_http\_server=1</br>
-    to:</br>
-    allow\_http\_server=0</br>
-*   Save changes and restart Everything.
-<br/><br/><br/> 
 
   
 
