@@ -380,15 +380,15 @@ You can customize the layout of the server, the icon, folder image, file image, 
 
   
 
-*   Create the folder<br/>    
+*   Create the folder    
     HTTP Server<br/>
     in:<br/>
     %APPDATA%\\Everything<br/>
-    If [Store settings and data in %APPDATA%\\Everything](/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.
+    If [Store settings and data in %APPDATA%\\Everything](https://www.voidtools.com/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.
     
 *   In **_Everything_**, from the **Tools** menu, click **Start HTTP Server**.
 *   Download the following files to your HTTP Server folder:
-*   [Everything-HTTP.Server.Files.zip](/Everything-HTTP.Server.Files.zip)
+*   [Everything-HTTP.Server.Files.zip](https://www.voidtools.com/Everything-HTTP.Server.Files.zip)
 *   Edit these files in the HTTP Server folder in your "_Everything_" installation folder.
 *   Everything will load these files instead of the embedded HTTP server files.
 *   Hold Shift and press the reload button to force your browser to refresh.
@@ -413,7 +413,7 @@ Custom strings
 
 To customize the builtin HTTP server strings:
 
-*   Download the HTTP server strings template: [http\_server\_strings.zip](/http_server_strings.zip)
+*   Download the HTTP server strings template: [http\_server\_strings.zip](https://www.voidtools.com/http_server_strings.zip)
 *   Extract the http\_server\_strings.ini file to: %APPDATA%\\Everything\\HTTP server
 *   Make any changes to your http\_server\_strings.ini
 *   In Everything, type in the following search and press ENTER:
@@ -448,7 +448,7 @@ To disable file downloading:
 *   Uncheck **allow file download**.
 <br/><br/><br/>    
 
-See [Disable HTTP Server](/support/everything/http#disable_http_server) to remove the HTTP server options and prevent the HTTP server from starting.
+See [Disable HTTP Server](#Disable-HTTP-Server) to remove the HTTP server options and prevent the HTTP server from starting.
 <br/><br/><br/>  
 
   
@@ -509,9 +509,9 @@ Everything supports range requests for streaming support.
 See also
 --------
 
-*   [Multiple Instances](/support/everything/multiple_instances).
-*   [HTTP Server Everything.ini options](/support/everything/ini#http).
-*   [HTTP Server options](/support/everything/options#http_server).
+*   [Multiple Instances](https://www.voidtools.com/support/everything/multiple_instances).
+*   [HTTP Server Everything.ini options](https://www.voidtools.com/support/everything/ini#http).
+*   [HTTP Server options](https://www.voidtools.com/support/everything/options#http_server).
 *   https://www.voidtools.com/support/everything/http/
 *   https://www.voidtools.com/forum/viewtopic.php?p=35401#http
 
