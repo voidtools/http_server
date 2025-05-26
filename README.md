@@ -380,12 +380,11 @@ You can customize the layout of the server, the icon, folder image, file image, 
 
   
 
-*   Create the folder    
+*   Create the folder</br> 
     HTTP Server<br/>
     in:<br/>
     %APPDATA%\\Everything<br/>
-    If [Store settings and data in %APPDATA%\\Everything](https://www.voidtools.com/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.
-    
+    If [Store settings and data in %APPDATA%\\Everything](https://www.voidtools.com/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.</br>
 *   In **_Everything_**, from the **Tools** menu, click **Start HTTP Server**.
 *   Download the following files to your HTTP Server folder:
 *   [Everything-HTTP.Server.Files.zip](https://www.voidtools.com/Everything-HTTP.Server.Files.zip)
@@ -416,7 +415,7 @@ To customize the builtin HTTP server strings:
 *   Download the HTTP server strings template: [http\_server\_strings.zip](https://www.voidtools.com/http_server_strings.zip)
 *   Extract the http\_server\_strings.ini file to: %APPDATA%\\Everything\\HTTP server
 *   Make any changes to your http\_server\_strings.ini
-*   In Everything, type in the following search and press ENTER:
+*   In Everything, type in the following search and press ENTER:</br>
     /http\_server\_strings=C:\\Users\\<user>\\AppData\\Roaming\\Everything\\HTTP Server\\http\_server\_strings.ini<br/>
     where <user> is your username.</br>
 *   Restart the HTTP Server:
