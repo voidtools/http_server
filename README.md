@@ -30,7 +30,10 @@ To manually install a plug-in:
 *   In **Everything**, from the **File** menu, click **Exit**.
 *   **Restart Everything**.
 
-  
+
+
+
+
   
 Plug-in Setup  
 -------------
