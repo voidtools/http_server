@@ -417,11 +417,8 @@ To customize the builtin HTTP server strings:
 *   Extract the http\_server\_strings.ini file to: %APPDATA%\\Everything\\HTTP server
 *   Make any changes to your http\_server\_strings.ini
 *   In Everything, type in the following search and press ENTER:
-    
-    /http\_server\_strings=C:\\Users\\<user>\\AppData\\Roaming\\Everything\\HTTP Server\\http\_server\_strings.ini
-    
-    where <user> is your username.
-    
+    /http\_server\_strings=C:\\Users\\<user>\\AppData\\Roaming\\Everything\\HTTP Server\\http\_server\_strings.ini<br/>
+    where <user> is your username.</br>
 *   Restart the HTTP Server:
     *   In **_Everything_**, from the **Tools** menu, click **Options**.
     *   Click the **HTTP Server** tab.
