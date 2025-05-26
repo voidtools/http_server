@@ -349,7 +349,7 @@ http://localhost:8080
 Range request
 -------------
 
-Everything supports range requests for streaming support.
+The Everything HTTP Server supports range requests for streaming support.
 <br/><br/><br/> 
   
 
