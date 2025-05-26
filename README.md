@@ -89,8 +89,7 @@ To start a HTTP server:
 View a HTTP server
 ------------------
 
-Start the HTTP server and open http://ComputerName in your web browser. 
-
+Start the HTTP server and open http://ComputerName in your web browser.<br/>
 Where ComputerName is the name of the computer running the HTTP server.
 <br/><br/><br/>
 
@@ -381,14 +380,10 @@ You can customize the layout of the server, the icon, folder image, file image, 
 
   
 
-*   Create the folder
-    
-    HTTP Server
-    
-    in:
-    
-    %APPDATA%\\Everything
-    
+*   Create the folder<br/>    
+    HTTP Server<br/>
+    in:<br/>
+    %APPDATA%\\Everything<br/>
     If [Store settings and data in %APPDATA%\\Everything](/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.
     
 *   In **_Everything_**, from the **Tools** menu, click **Start HTTP Server**.
