@@ -137,13 +137,10 @@ key=value pairs can be omitted if not required.
 ### Keys:
 
 <dl>
-<dt>s</dt>
-<dt>q</dt>
-<dt>search</dt>
-<dd>search text</dd>dd
+<dt>s<br/>q<br/>search</dt>
+<dd>search text</dd>
 
-<dt>o</dt>
-<dt>offset</dt>
+<dt>o<br/>offset</dt>
 <dd>display results from the nth result</dd>
 </dl>
 
