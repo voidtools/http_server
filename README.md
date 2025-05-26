@@ -6,6 +6,11 @@ Allow users to search and access your files from a webbrowser.
 [Install Guide](#Plug-in-Installation)  
 [Setup Guide](#Plug-in-Setup)  
 [Start a HTTP Server](#Start-a-HTTP-server)  
+[View a HTTP server](#View-a-HTTP-server)
+[Set a username and password](#Set-a-username-and-password)
+[Disable file downloading](#Disable-file-downloading)
+[URL query string](#URL-query-string)
+<br/><br/><br/>
 
 Everything HTTP Server Options:
 
@@ -18,7 +23,7 @@ Everything HTTP Server in a web browser example:
 
 Download
 --------
-https://www.voidtools.com/support/everything/http/
+https://github.com/voidtools/http_server/releases
 <br/><br/><br/>
 
 Plug-in Installation
@@ -68,16 +73,13 @@ View a HTTP server
 ------------------
 
 Start the HTTP server and open http://ComputerName in your web browser. Where ComputerName is the name of the computer running the HTTP server.
-
-  
-  
+<br/><br/><br/>
 
 Set a username and password
 ---------------------------
 
 Changing the username and password will take effect immediately.
-
-  
+<br/><br/><br/>
 
 To change the HTTP server username and password
 
@@ -88,16 +90,13 @@ To change the HTTP server username and password
 *   Type in a new **username** and **password**.
     
 *   Click **OK**
-    
-
-  
+<br/><br/><br/>  
 
 Disable file downloading
 ------------------------
 
 You can disable file downloading and allow clients to list results only.
-
-  
+<br/><br/><br/>  
 
 To disable HTTP file downloading:
 
@@ -108,9 +107,7 @@ To disable HTTP file downloading:
 *   Uncheck **Allow file download**.
     
 *   Click **OK**
-    
-
-  
+<br/><br/><br/>   
 
 URL query string
 ----------------
