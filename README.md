@@ -2,37 +2,22 @@ HTTP Server Plugin for [Everything 1.5](https://www.voidtools.com/forum/viewtopi
 
 Allow users to search and access your files from a webbrowser.
 
-[Download](#download)
-
-[Install Guide](#Plug-in-Installation)
-
-[Setup Guide](#Plug-in-Setup)
-
-[Start a HTTP Server](#Start-a-HTTP-server)
-
-[View a HTTP server](#View-a-HTTP-server)
-
-[Set a username and password](#Set-a-username-and-password)
-
-[Disable file downloading](#Disable-file-downloading)
-
-[URL query string](#URL-query-string)
-
-[Change the default HTTP files](#Change-the-default-HTTP-files)
-
-[Change the default HTTP server page](#Change-the-default-HTTP-server-page)
-
-[Custom strings](#Custom-strings)
-
-[Security](#Security)
-
-[Disable HTTP Server](#Disable-HTTP-Server)
-
-[Troubleshooting](#Troubleshooting)
-
-[Range request](#Range-request)
-
-[See also](#See-also)
+[Download](#download)<br/>
+[Install Guide](#Plug-in-Installation)<br/>
+[Setup Guide](#Plug-in-Setup)<br/>
+[Start a HTTP Server](#Start-a-HTTP-server)<br/>
+[View a HTTP server](#View-a-HTTP-server)<br/>
+[Set a username and password](#Set-a-username-and-password)<br/>
+[Disable file downloading](#Disable-file-downloading)<br/>
+[URL query string](#URL-query-string)<br/>
+[Change the default HTTP files](#Change-the-default-HTTP-files)<br/>
+[Change the default HTTP server page](#Change-the-default-HTTP-server-page)<br/>
+[Custom strings](#Custom-strings)<br/>
+[Security](#Security)<br/>
+[Disable HTTP Server](#Disable-HTTP-Server)<br/>
+[Troubleshooting](#Troubleshooting)<br/>
+[Range request](#Range-request)<br/>
+[See also](#See-also)<br/>
 <br/><br/><br/>
 
 Everything HTTP Server Options:
