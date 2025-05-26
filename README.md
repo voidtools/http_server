@@ -99,9 +99,6 @@ Set a username and password
 ---------------------------
 
 Changing the username and password will take effect immediately.
-<br/><br/><br/>
-
-
 
 To change the HTTP server username and password
 
@@ -117,9 +114,6 @@ Disable file downloading
 ------------------------
 
 You can disable file downloading and allow clients to list results only.
-<br/><br/><br/>  
-
-
 
 To disable HTTP file downloading:
 
@@ -139,25 +133,19 @@ Syntax:
 http://localhost/?s=&o=0&c=32&j=0&i=0&w=0&p=0&r=0&m=0&path\_column=0&size\_column=0&date\_modified\_column=0&sort=name&ascending=1
 
 key=value pairs can be omitted if not required.
-<br/><br/><br/> 
+ 
+### Keys:
 
-  
+<dl>
+<dt>s</dt>
+<dt>q</dt>
+<dt>search</dt>
+<dd>search text</dd>dd
 
-Keys:
-
-_s_
-
-_q_
-
-_search_
-
-search text
-
-_o_
-
-_offset_
-
-display results from the nth result
+<dt>o</dt>
+<dt>offset</dt>
+<dd>display results from the nth result</dd>
+</dl>
 
 _c_
 
@@ -430,9 +418,6 @@ Security
 --------
 
 Every file and folder indexed by Everything can be searched and downloaded via the web server.
-<br/><br/><br/>  
-
-  
 
 To disable file downloading:
 
