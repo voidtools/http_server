@@ -34,8 +34,9 @@ https://www.voidtools.com/forum/viewtopic.php?p=35401#http
 Everything HTTP Server Options:
 
 ![image](https://github.com/user-attachments/assets/c41251d7-76ca-4df3-8dfb-2019f48a25a0)
+<br/><br/><br/>
 
-Everything HTTP Server in a web browser example:
+An example of the Everything HTTP Server viewed from a web browser:
 
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
 <br/><br/><br/>
