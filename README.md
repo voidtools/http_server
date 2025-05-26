@@ -11,6 +11,8 @@ Everything HTTP Server in a web browser example:
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
 
 
+Plug-in Installation
+--------------------
 
 To install a plug-in:
 
@@ -31,7 +33,8 @@ To manually install a plug-in:
   
   
 Plug-in Setup  
-  
+-------------
+
 To manage your plug-ins:
 
 *   In **Everything**, from the **Tools** menu, click **Options**.
@@ -105,8 +108,6 @@ To disable HTTP file downloading:
 
 URL query string
 ----------------
-
-  
 
 Syntax:
 
@@ -516,4 +517,8 @@ See also
     
 *   [HTTP Server options](/support/everything/options#http_server).
     
-*   [http://en.wikipedia.org/wiki/HTTP](http://en.wikipedia.org/wiki/HTTP)
+*   https://www.voidtools.com/support/everything/http/
+
+*   https://www.voidtools.com/forum/viewtopic.php?p=35401#http
+
+
