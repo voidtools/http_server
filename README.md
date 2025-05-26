@@ -2,14 +2,37 @@ HTTP Server Plugin for [Everything 1.5](https://www.voidtools.com/forum/viewtopi
 
 Allow users to search and access your files from a webbrowser.
 
-[Download](#download)<br/>
-[Install Guide](#Plug-in-Installation)<br/>
-[Setup Guide](#Plug-in-Setup)<br/>
-[Start a HTTP Server](#Start-a-HTTP-server)<br/>
-[View a HTTP server](#View-a-HTTP-server)<br/>
-[Set a username and password](#Set-a-username-and-password)<br/>
-[Disable file downloading](#Disable-file-downloading)<br/>
-[URL query string](#URL-query-string)<br/>
+[Download](#download)
+
+[Install Guide](#Plug-in-Installation)
+
+[Setup Guide](#Plug-in-Setup)
+
+[Start a HTTP Server](#Start-a-HTTP-server)
+
+[View a HTTP server](#View-a-HTTP-server)
+
+[Set a username and password](#Set-a-username-and-password)
+
+[Disable file downloading](#Disable-file-downloading)
+
+[URL query string](#URL-query-string)
+
+[Change the default HTTP files](#Change-the-default-HTTP-files)
+
+[Change the default HTTP server page](#Change-the-default-HTTP-server-page)
+
+[Custom strings](#Custom-strings)
+
+[Security](#Security)
+
+[Disable HTTP Server](#Disable-HTTP-Server)
+
+[Troubleshooting](#Troubleshooting)
+
+[Range request](#Range-request)
+
+[See also](#See-also)
 <br/><br/><br/>
 
 Everything HTTP Server Options:
@@ -21,10 +44,16 @@ Everything HTTP Server in a web browser example:
 ![image](https://github.com/user-attachments/assets/ecb63c87-0150-40c2-aa60-8e2331e241da)
 <br/><br/><br/>
 
+
+
 Download
 --------
 https://github.com/voidtools/http_server/releases
+
+https://www.voidtools.com/forum/viewtopic.php?p=35401#http
 <br/><br/><br/>
+
+
 
 Plug-in Installation
 --------------------
@@ -46,6 +75,8 @@ To manually install a plug-in:
 *   **Restart Everything**.
 <br/><br/><br/>
 
+
+
 Plug-in Setup  
 -------------
 
@@ -54,6 +85,8 @@ To manage your plug-ins:
 *   In **Everything**, from the **Tools** menu, click **Options**.
 *   Click the **Plug-ins** tab on the left.
 <br/><br/><br/>
+
+
 
 Start a HTTP server
 -------------------
@@ -69,17 +102,23 @@ To start a HTTP server:
 *   Click **OK**.
 <br/><br/><br/>
 
+
+
 View a HTTP server
 ------------------
 
 Start the HTTP server and open http://ComputerName in your web browser. Where ComputerName is the name of the computer running the HTTP server.
 <br/><br/><br/>
 
+
+
 Set a username and password
 ---------------------------
 
 Changing the username and password will take effect immediately.
 <br/><br/><br/>
+
+
 
 To change the HTTP server username and password
 
@@ -92,11 +131,15 @@ To change the HTTP server username and password
 *   Click **OK**
 <br/><br/><br/>  
 
+
+
 Disable file downloading
 ------------------------
 
 You can disable file downloading and allow clients to list results only.
 <br/><br/><br/>  
+
+
 
 To disable HTTP file downloading:
 
@@ -109,6 +152,8 @@ To disable HTTP file downloading:
 *   Click **OK**
 <br/><br/><br/>   
 
+
+
 URL query string
 ----------------
 
@@ -117,6 +162,7 @@ Syntax:
 http://localhost/?s=&o=0&c=32&j=0&i=0&w=0&p=0&r=0&m=0&path\_column=0&size\_column=0&date\_modified\_column=0&sort=name&ascending=1
 
 key=value pairs can be omitted if not required.
+<br/><br/><br/> 
 
   
 
@@ -339,19 +385,21 @@ name
 ascending
 
 1
+<br/><br/><br/> 
 
   
 
 For example, search for ABC AND 123, from the starting offset of 0, displaying only the first 100 results, sorted by size descending:
 
 http://localhost/?search=ABC+123&offset=0&count=100&sort=size&ascending=0
-
+<br/><br/><br/> 
   
 
 Change the default HTTP files
 -----------------------------
 
 You can customize the layout of the server, the icon, folder image, file image, everything logo, sort up image, sort down image and up one folder image.
+<br/><br/><br/> 
 
   
 
@@ -376,9 +424,9 @@ You can customize the layout of the server, the icon, folder image, file image, 
 *   Everything will load these files instead of the embedded HTTP server files.
     
 *   Hold Shift and press the reload button to force your browser to refresh.
-    
+<br/><br/><br/>   
 
-  
+
 
 Change the default HTTP server page
 -----------------------------------
@@ -390,9 +438,9 @@ To change the default HTTP server page:
 *   Click the **HTTP Server** tab.
     
 *   Set the **Default page** to your custom page.
-    
+<br/><br/><br/>     
 
-  
+
 
 Custom strings
 --------------
@@ -424,14 +472,15 @@ To customize the builtin HTTP server strings:
     *   Check **Enable HTTP Server**.
         
     *   Click **OK**.
-        
+<br/><br/><br/>     
 
-  
+
 
 Security
 --------
 
 Every file and folder indexed by Everything can be searched and downloaded via the web server.
+<br/><br/><br/>  
 
   
 
@@ -442,11 +491,10 @@ To disable file downloading:
 *   Click the **HTTP Server** tab.
     
 *   Uncheck **allow file download**.
-    
-
-  
+<br/><br/><br/>    
 
 See [Disable HTTP Server](/support/everything/http#disable_http_server) to remove the HTTP server options and prevent the HTTP server from starting.
+<br/><br/><br/>  
 
   
 
@@ -468,22 +516,24 @@ To disable the HTTP server:
     allow\_http\_server=0
     
 *   Save changes and restart Everything.
-    
+<br/><br/><br/> 
 
   
 
-Trouble shooting
-----------------
+Troubleshooting
+---------------
 
 How do I fix the Unable to start HTTP server: bind failed 10048 error?
+<br/><br/><br/> 
 
   
 
 There is already another service running on port 80.
 
 Please try changing the Everything HTTP server port to another port.
-
+<br/><br/><br/> 
   
+
 
 To change the HTTP server port:
 
@@ -494,13 +544,14 @@ To change the HTTP server port:
 *   Change **Listen on port** to a new port, for example 8080.
     
 *   Click **OK**
-    
+<br/><br/><br/> 
 
   
 
 Please make sure to specify this port when connecting to the web server with your web browser, for example:
 
 http://localhost:8080
+<br/><br/><br/> 
 
   
 
@@ -508,7 +559,7 @@ Range request
 -------------
 
 Everything supports range requests for streaming support.
-
+<br/><br/><br/> 
   
 
 See also
