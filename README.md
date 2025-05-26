@@ -89,7 +89,8 @@ To start a HTTP server:
 View a HTTP server
 ------------------
 
-Start the HTTP server and open http://ComputerName in your web browser. Where ComputerName is the name of the computer running the HTTP server.
+Start the HTTP server and open http://ComputerName in your web browser. 
+Where ComputerName is the name of the computer running the HTTP server.
 <br/><br/><br/>
 
 
@@ -105,11 +106,8 @@ Changing the username and password will take effect immediately.
 To change the HTTP server username and password
 
 *   In **Everything**, from the **Tools** menu, click **Options**
-    
 *   Click the **HTTP server** tab.
-    
 *   Type in a new **username** and **password**.
-    
 *   Click **OK**
 <br/><br/><br/>  
 
@@ -126,11 +124,8 @@ You can disable file downloading and allow clients to list results only.
 To disable HTTP file downloading:
 
 *   In **Everything**, from the **Tools** menu, click **Options**
-    
 *   Click the **HTTP server** tab.
-    
 *   Uncheck **Allow file download**.
-    
 *   Click **OK**
 <br/><br/><br/>   
 
@@ -396,15 +391,10 @@ You can customize the layout of the server, the icon, folder image, file image, 
 *   If [Store settings and data in %APPDATA%\\Everything](/support/everything/options#store_settings_and_data_in_appdata_everything) is disabled, the HTTP Server folder must be created in the same location as your Everything.exe.
     
 *   In **_Everything_**, from the **Tools** menu, click **Start HTTP Server**.
-    
 *   Download the following files to your HTTP Server folder:
-    
 *   [Everything-HTTP.Server.Files.zip](/Everything-HTTP.Server.Files.zip)
-    
 *   Edit these files in the HTTP Server folder in your "_Everything_" installation folder.
-    
 *   Everything will load these files instead of the embedded HTTP server files.
-    
 *   Hold Shift and press the reload button to force your browser to refresh.
 <br/><br/><br/>   
 
@@ -416,9 +406,7 @@ Change the default HTTP server page
 To change the default HTTP server page:
 
 *   In **_Everything_**, from the **Tools** menu, click **Options**.
-    
 *   Click the **HTTP Server** tab.
-    
 *   Set the **Default page** to your custom page.
 <br/><br/><br/>     
 
@@ -430,11 +418,8 @@ Custom strings
 To customize the builtin HTTP server strings:
 
 *   Download the HTTP server strings template: [http\_server\_strings.zip](/http_server_strings.zip)
-    
 *   Extract the http\_server\_strings.ini file to: %APPDATA%\\Everything\\HTTP server
-    
 *   Make any changes to your http\_server\_strings.ini
-    
 *   In Everything, type in the following search and press ENTER:
     
     /http\_server\_strings=C:\\Users\\<user>\\AppData\\Roaming\\Everything\\HTTP Server\\http\_server\_strings.ini
@@ -442,17 +427,11 @@ To customize the builtin HTTP server strings:
     where <user> is your username.
     
 *   Restart the HTTP Server:
-    
     *   In **_Everything_**, from the **Tools** menu, click **Options**.
-        
     *   Click the **HTTP Server** tab.
-        
     *   Uncheck **Enable HTTP Server**.
-        
     *   Click **Apply**.
-        
     *   Check **Enable HTTP Server**.
-        
     *   Click **OK**.
 <br/><br/><br/>     
 
@@ -469,9 +448,7 @@ Every file and folder indexed by Everything can be searched and downloaded via t
 To disable file downloading:
 
 *   In **_Everything_**, from the **Tools** menu, click **Options**.
-    
 *   Click the **HTTP Server** tab.
-    
 *   Uncheck **allow file download**.
 <br/><br/><br/>    
 
@@ -486,9 +463,7 @@ Disable HTTP Server
 To disable the HTTP server:
 
 *   Exit Everything (right click the Everything system tray icon and click Exit)
-    
 *   Open your Everything.ini in the same location as your Everything.exe
-    
 *   Change the following line:
     
     allow\_http\_server=1
@@ -520,11 +495,8 @@ Please try changing the Everything HTTP server port to another port.
 To change the HTTP server port:
 
 *   In **Everything**, from the **Tools** menu, click **Options**
-    
 *   Click the **HTTP server** tab.
-    
 *   Change **Listen on port** to a new port, for example 8080.
-    
 *   Click **OK**
 <br/><br/><br/> 
 
@@ -548,13 +520,9 @@ See also
 --------
 
 *   [Multiple Instances](/support/everything/multiple_instances).
-    
 *   [HTTP Server Everything.ini options](/support/everything/ini#http).
-    
 *   [HTTP Server options](/support/everything/options#http_server).
-    
 *   https://www.voidtools.com/support/everything/http/
-
 *   https://www.voidtools.com/forum/viewtopic.php?p=35401#http
 
 
