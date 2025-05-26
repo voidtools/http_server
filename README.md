@@ -130,103 +130,73 @@ URL query string
 
 Syntax:
 
-http://localhost/?s=&o=0&c=32&j=0&i=0&w=0&p=0&r=0&m=0&path\_column=0&size\_column=0&date\_modified\_column=0&sort=name&ascending=1
+http://localhost/?s=&o=0&c=32&j=0&i=0&w=0&p=0&r=0&m=0&path_column=0&size_column=0&date_modified_column=0&sort=name&ascending=1
 
 key=value pairs can be omitted if not required.
  
 ### Keys:
-
 <dl>
-<dt>s<br/>q<br/>search</dt>
-<dd>search text</dd>
-
-<dt>o<br/>offset</dt>
-<dd>display results from the nth result</dd>
+<dt id="s"><p><i>s</i></p></dt>
+<dt id="q"><p><i>q</i></p></dt>
+<dt id="search"><p><i>search</i></p></dt>
+<dd><p>search text</p>
+</dd>
+<dt id="o"><p><i>o</i></p></dt>
+<dt id="offset"><p><i>offset</i></p></dt>
+<dd><p>display results from the nth result</p>
+</dd>
+<dt id="c"><p><i>c</i></p></dt>
+<dt id="count"><p><i>count</i></p></dt>
+<dd><p>return no more than value results</p>
+</dd>
+<dt id="j"><p><i>j</i></p></dt>
+<dt id="json"><p><i>json</i></p></dt>
+<dd><p>return results as a JSON object if value is nonzero</p>
+</dd>
+<dt id="i"><p><i>i</i></p></dt>
+<dt id="case"><p><i>case</i></p></dt>
+<dd><p>match case if value is nonzero</p>
+</dd>
+<dt id="w"><p><i>w</i></p></dt>
+<dt id="wholeword"><p><i>wholeword</i></p></dt>
+<dd><p>search whole words if value is nonzero</p>
+</dd>
+<dt id="p"><p><i>p</i></p></dt>
+<dt id="path"><p><i>path</i></p></dt>
+<dd><p>search whole paths if value is nonzero</p>
+</dd>
+<dt id="r"><p><i>r</i></p></dt>
+<dt id="regex"><p><i>regex</i></p></dt>
+<dd><p>perform a regex search if value is nonzero</p>
+</dd>
+<dt id="m"><p><i>m</i></p></dt>
+<dt id="diacritics"><p><i>diacritics</i></p></dt>
+<dd><p>match diacritics if value is nonzero</p>
+</dd>
+<dt id="path_column"><p><i>path_column</i></p></dt>
+<dd><p>list the result's path in the json object if value is nonzero</p>
+</dd>
+<dt id="size_column"><p><i>size_column</i></p></dt>
+<dd><p>list the result's size in the json object if value is nonzero</p>
+</dd>
+<dt id="date_modified_column"><p><i>date_modified_column</i></p></dt>
+<dd><p>list the result's modified date in the json object if value is nonzero</p>
+</dd>
+<dt id="sort"><p><i>sort</i></p></dt>
+<dd><p>where value can be one of the following:</p>
+<table>
+<tr><th class="wikinowrap">Sort name</th><th class="wikinowrap">Description</th></tr>
+<tr><td class="wikinowrap">name</td><td>Sort by Name.</td></tr>
+<tr><td class="wikinowrap">path</td><td>Sort by Path.</td></tr>
+<tr><td class="wikinowrap">date_modified </td><td>Sort by Date Modified.</td></tr>
+<tr><td class="wikinowrap">size</td><td>Sort by Size.</td></tr>
+</table>
+<br/>
+</dd>
+<dt id="ascending"><p><i>ascending</i></p></dt>
+<dd><p>sort by ascending order if value is nonzero</p>
+</dd>
 </dl>
-
-_c_
-
-_count_
-
-return no more than value results
-
-_j_
-
-_json_
-
-return results as a JSON object if value is nonzero
-
-_i_
-
-_case_
-
-match case if value is nonzero
-
-_w_
-
-_wholeword_
-
-search whole words if value is nonzero
-
-_p_
-
-_path_
-
-search whole paths if value is nonzero
-
-_r_
-
-_regex_
-
-perform a regex search if value is nonzero
-
-_m_
-
-_diacritics_
-
-match diacritics if value is nonzero
-
-_path\_column_
-
-list the result's path in the json object if value is nonzero
-
-_size\_column_
-
-list the result's size in the json object if value is nonzero
-
-_date\_modified\_column_
-
-list the result's modified date in the json object if value is nonzero
-
-_sort_
-
-where value can be one of the following:
-
-Sort name
-
-Description
-
-name
-
-Sort by Name.
-
-path
-
-Sort by Path.
-
-date\_modified
-
-Sort by Date Modified.
-
-size
-
-Sort by Size.
-
-  
-
-_ascending_
-
-sort by ascending order if value is nonzero
 
   
 
