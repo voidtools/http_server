@@ -2,14 +2,14 @@ HTTP Server Plugin for [Everything 1.5](https://www.voidtools.com/forum/viewtopi
 
 Allow users to search and access your files from a webbrowser.
 
-[Download](#download)  
-[Install Guide](#Plug-in-Installation)  
-[Setup Guide](#Plug-in-Setup)  
-[Start a HTTP Server](#Start-a-HTTP-server)  
-[View a HTTP server](#View-a-HTTP-server)
-[Set a username and password](#Set-a-username-and-password)
-[Disable file downloading](#Disable-file-downloading)
-[URL query string](#URL-query-string)
+[Download](#download)<br/>
+[Install Guide](#Plug-in-Installation)<br/>
+[Setup Guide](#Plug-in-Setup)<br/>
+[Start a HTTP Server](#Start-a-HTTP-server)<br/>
+[View a HTTP server](#View-a-HTTP-server)<br/>
+[Set a username and password](#Set-a-username-and-password)<br/>
+[Disable file downloading](#Disable-file-downloading)<br/>
+[URL query string](#URL-query-string)<br/>
 <br/><br/><br/>
 
 Everything HTTP Server Options:
