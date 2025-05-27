@@ -356,9 +356,9 @@ The Everything HTTP Server supports range requests for streaming support.
 See also
 --------
 
-*   [Multiple Instances](https://www.voidtools.com/support/everything/multiple_instances).
-*   [HTTP Server Everything.ini options](https://www.voidtools.com/support/everything/ini#http).
-*   [HTTP Server options](https://www.voidtools.com/support/everything/options#http_server).
+*   [Multiple Instances](https://www.voidtools.com/support/everything/multiple_instances)
+*   [HTTP Server Everything.ini options](https://www.voidtools.com/support/everything/ini#http)
+*   [HTTP Server options](https://www.voidtools.com/support/everything/options#http_server)
 *   https://www.voidtools.com/support/everything/http/
 *   https://www.voidtools.com/forum/viewtopic.php?p=35401#http
 
