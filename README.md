@@ -362,6 +362,7 @@ See also
 *   [HTTP Server Everything.ini options](https://www.voidtools.com/support/everything/ini#http)
 *   [HTTP Server options](https://www.voidtools.com/support/everything/options#http_server)
 *   https://www.voidtools.com/support/everything/http/
+*   [Everything Client Service](https://www.voidtools.com/forum/viewtopic.php?t=1982)
 *   [Everything Wall](https://www.voidtools.com/forum/viewtopic.php?p=27860#p27860)
 *   [Everything 1.5 Plugins - HTTP Server](https://www.voidtools.com/forum/viewtopic.php?p=35401#http)
 *   [Everything 1.5 Plugin SDK](https://www.voidtools.com/forum/viewtopic.php?t=16535)
