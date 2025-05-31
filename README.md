@@ -25,7 +25,7 @@ Download
 --------
 https://github.com/voidtools/http_server/releases
 
-https://www.voidtools.com/forum/viewtopic.php?p=35401#http
+[Everything 1.5 Plugins - HTTP Server](https://www.voidtools.com/forum/viewtopic.php?p=35401#http)
 <br/><br/><br/>
 
 
