@@ -82,7 +82,7 @@ enum
 #define WIN32_LEAN_AND_MEAN
 
 #include <windows.h>
-#include "..\..\include\everything_plugin.h"
+#include "everything_plugin.h"
 #include "version.h"
 
 #define HTTP_SERVER_STRING_MACRO(name,lowercase_ascii_name,string) HTTP_SERVER_STRING_##name,
@@ -1403,8 +1403,6 @@ __declspec( dllexport) void * EVERYTHING_PLUGIN_API everything_plugin_proc(DWORD
 				button_wide += 24;
 				
 				everything_plugin_os_set_dlg_rect(page_hwnd,HTTP_SERVER_PLUGIN_ID_RESTORE_DEFAULTS,x + wide - button_wide,12 + high - EVERYTHING_PLUGIN_OS_DLG_BUTTON_HIGH,button_wide,EVERYTHING_PLUGIN_OS_DLG_BUTTON_HIGH);
-			
-				break;
 			}
 			
 			return (void *)1;
