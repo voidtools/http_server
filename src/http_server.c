@@ -21,6 +21,7 @@
 //
 
 // TODO:
+// obfuscate the password with base64. (like the Everything Server)
 // add support for the date created column.
 // a simple path rewrite to hide roots, for example: c:\private\media => /media
 // add support for date created column (mostly for json support)
