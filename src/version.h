@@ -1,7 +1,7 @@
 #define PLUGINYEAR		2025
 #define PLUGINMAJOR 	1
 #define PLUGINMINOR 	0
-#define PLUGINREVISION	4
+#define PLUGINREVISION	5
 #define PLUGINBUILD		6
 
 #define _PLUGINVERSIONSTR2(x)	#x

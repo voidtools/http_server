@@ -21,8 +21,6 @@
 //
 
 // TODO:
-// [HIGH] avoid using a everything_plugin_output_stream_t for the log file and just write directly to the output file. -users want to see up-to-date entries in the log on disk. -added flushing, needs testing.
-// [HIGH] convert spaces inside <td> to &nbsp; or use CSS td {    white-space: pre;   } -https://www.voidtools.com/forum/viewtopic.php?p=79828#p79828 -added needs testing.
 // [HIGH] add HEAD requests
 // obfuscate the password with base64. (like the Everything Server)
 // add support for the date created column.
@@ -33,6 +31,12 @@
 // json should return version info.
 // an option to limit the number of results for a 'index of' page.
 // an ini option to set which properties to supported. (multiple users want date created and sha256) -or just make all indexed properties available. -will need an option to specify which columns are shown by default
+
+// Changes:
+// 1.0.5.6
+// *avoid using a everything_plugin_output_stream_t for the log file and just write directly to the output file. -users want to see up-to-date entries in the log on disk. -added log flushing.
+// *convert spaces inside <td> to &nbsp; or use CSS td {    white-space: pre;   } -https://www.voidtools.com/forum/viewtopic.php?p=79828#p79828 -added .nobr a { white-sacep: pre}
+
 
 #define HTTP_SERVER_WM_LISTEN			(WM_USER)
 #define HTTP_SERVER_WM_CLIENT			(WM_USER+1)
