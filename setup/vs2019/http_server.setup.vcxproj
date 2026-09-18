@@ -534,7 +534,7 @@
     <ClCompile Include="..\src\setup.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="...\src\version.h" />
+    <ClInclude Include="..\..\src\version.h" />
     <ClInclude Include="..\res\resource.h" />
   </ItemGroup>
   <ItemGroup>
