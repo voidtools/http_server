@@ -393,7 +393,7 @@ static everything_plugin_utf8_t *http_server_home = NULL;
 static everything_plugin_utf8_t *http_server_default_page = NULL;
 static everything_plugin_utf8_t *http_server_log_file_name = NULL;
 static int http_server_logging_enabled = 1;
-static int http_server_log_max_size = 4 * 1024 * 1024;
+static int http_server_log_max_size = 8 * 1024 * 1024;
 static int http_server_log_delta_size = 512 * 1024;
 static int http_server_allow_file_download = 1;
 static everything_plugin_utf8_t *http_server_bindings = NULL;
@@ -402,7 +402,7 @@ static int http_server_show_drive_labels;
 static everything_plugin_utf8_t *http_server_strings_filename = NULL;
 static everything_plugin_utf8_t *http_server_header = NULL;
 static int http_server_allow_query_access = 0; // is-open: online: runcount: is-running:
-static int http_server_allow_disk_access = 0; // content:
+static int http_server_allow_read_access = 0; // content:
 static int http_server_allow_full_access = 0; // include-filelist:
 static int http_server_default_sort = HTTP_SERVER_SORT_DATE_MODIFIED;
 static int http_server_default_sort_ascending = 0;
@@ -425,9 +425,6 @@ static const char http_server_main_css[] =
 	"td, tr, img {\r\n"
 	"	border-width: 0px;\r\n"
 	"	vertical-align:middle;\r\n"
-	"}\r\n"
-	"td {\r\n"
-	"	white-space: pre;\r\n"
 	"}\r\n"
 	"\r\n"
 	"a {\r\n"
@@ -516,7 +513,10 @@ static const char http_server_main_css[] =
 	"}\r\n"
 	"\r\n"
 	".nobr {\r\n"
-	"	white-space: nowrap;\r\n"
+	"	white-space: pre;\r\n"
+	"}\r\n"
+	".nobr a {\r\n"
+	"	white-space: pre;\r\n"
 	"}\r\n"
 	"\r\n"
 	".nav {\r\n"
@@ -1175,7 +1175,8 @@ __declspec( dllexport) void * EVERYTHING_PLUGIN_API everything_plugin_proc(DWORD
 			http_server_strings_filename = everything_plugin_get_setting_string(data,(const everything_plugin_utf8_t *)"strings_filename",http_server_strings_filename);
 			http_server_header = everything_plugin_get_setting_string(data,(const everything_plugin_utf8_t *)"header",http_server_header);
 			http_server_allow_query_access = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"allow_query_access",http_server_allow_query_access);
-			http_server_allow_disk_access = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"allow_disk_access",http_server_allow_disk_access);
+			http_server_allow_read_access = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"allow_disk_access",http_server_allow_read_access);
+			http_server_allow_read_access = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"allow_read_access",http_server_allow_read_access);
 			http_server_allow_full_access = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"allow_full_access",http_server_allow_full_access);
 			http_server_default_sort = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"default_sort",http_server_default_sort);
 			http_server_default_sort_ascending = everything_plugin_get_setting_int(data,(const everything_plugin_utf8_t *)"default_sort_ascending",http_server_default_sort_ascending);
@@ -1299,7 +1300,7 @@ __declspec( dllexport) void * EVERYTHING_PLUGIN_API everything_plugin_proc(DWORD
 			everything_plugin_set_setting_string(data,(const everything_plugin_utf8_t *)"strings_filename",http_server_strings_filename);
 			everything_plugin_set_setting_string(data,(const everything_plugin_utf8_t *)"header",http_server_header);
 			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"allow_query_access",http_server_allow_query_access);
-			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"allow_disk_access",http_server_allow_disk_access);
+			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"allow_read_access",http_server_allow_read_access);
 			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"allow_full_access",http_server_allow_full_access);
 			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"default_sort",http_server_default_sort);
 			everything_plugin_set_setting_int(data,(const everything_plugin_utf8_t *)"default_sort_ascending",http_server_default_sort_ascending);
@@ -1451,7 +1452,7 @@ __declspec( dllexport) void * EVERYTHING_PLUGIN_API everything_plugin_proc(DWORD
 								everything_plugin_os_set_dlg_text(page_hwnd,HTTP_SERVER_PLUGIN_ID_HOME_EDIT,(const everything_plugin_utf8_t *)"");
 								everything_plugin_os_set_dlg_text(page_hwnd,HTTP_SERVER_PLUGIN_ID_DEFAULT_PAGE_EDIT,(const everything_plugin_utf8_t *)"");
 								SetDlgItemInt(page_hwnd,HTTP_SERVER_PLUGIN_ID_PORT_EDITBOX,HTTP_SERVER_DEFAULT_PORT,FALSE);
-								SetDlgItemInt(page_hwnd,HTTP_SERVER_PLUGIN_ID_LOG_MAX_SIZE_EDITBOX,4096,FALSE);
+								SetDlgItemInt(page_hwnd,HTTP_SERVER_PLUGIN_ID_LOG_MAX_SIZE_EDITBOX,8192,FALSE);
 								everything_plugin_os_set_dlg_text(page_hwnd,HTTP_SERVER_PLUGIN_ID_USERNAME_EDITBOX,(const everything_plugin_utf8_t *)"");
 								everything_plugin_os_set_dlg_text(page_hwnd,HTTP_SERVER_PLUGIN_ID_PASSWORD_EDITBOX,(const everything_plugin_utf8_t *)"");
 								everything_plugin_os_set_dlg_text(page_hwnd,HTTP_SERVER_PLUGIN_ID_BINDINGS_EDITBOX,(const everything_plugin_utf8_t *)"");
@@ -5468,7 +5469,7 @@ static void http_server_start_next_query(void)
 				0,
 				0,
 				http_server_allow_query_access,
-				http_server_allow_disk_access,
+				http_server_allow_read_access,
 				http_server_allow_full_access,
 				0,
 				EVERYTHING_PLUGIN_CONFIG_SIZE_STANDARD_JEDEC,
